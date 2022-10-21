@@ -49,7 +49,7 @@ for(let i = 0; i < membersArray.length; i++){
     const thisMember = membersArray[i];
     console.log(thisMember);
     for (let key in thisMember){
-    console.log(key, thisMember[key])
+        console.log(key, thisMember[key])
     }
-object_array_container.innerHTML += `<li>${thisMember["nome"]}<ul><li> ruolo ${thisMember["ruolo"]}</li><li><img src="img/${thisMember["foto"]}" alt="">$</li></ul></li>`;
+    object_array_container.innerHTML += `<li>${thisMember["nome"]}<ul><li> ruolo ${thisMember["ruolo"]}</li><li><img src="img/${thisMember["foto"]}" alt="">$</li></ul></li>`;
 }
